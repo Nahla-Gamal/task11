@@ -24,7 +24,7 @@ function LayoutPage(){
               <Link to="/WomanPage">Women</Link>
             </li>
             <li>
-              <Link to="/AboutPage">About</Link>
+              <Link to="/HomePage">HomePage</Link>
             </li>
             <li>
               <Link to="/ContactPage">Contact</Link>
@@ -50,8 +50,10 @@ function LayoutPage(){
         </nav>
 
         <hr/>
+        
   
         <Outlet />
+        
        
       </>
     )

@@ -1,0 +1,20 @@
+#productWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+.productBox {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productlink:hover {
+    padding-bottom: 0px;
+}
